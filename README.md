@@ -1,27 +1,21 @@
-# AngularTourOfHeroes
+Projeto pessoal desenvolvido pela Google, Angular Tour of Heroes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Notas pessoais
+<br>
+<li>NgIf exclui ou aparece um bloco HTML dependendo da condição</li>
+<li>NgFor faz o exercicio for para todos itens dentro de um objeto</li>
+<li>Class binding é dinamicamente adicionar uma classe dependendo de uma função</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
