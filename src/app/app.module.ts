@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { TesthashComponent } from './testhash/testhash.component';
+import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { TesthashComponent } from './testhash/testhash.component';
     HeroesComponent,
     HeroDetailComponent,
     TesthashComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
