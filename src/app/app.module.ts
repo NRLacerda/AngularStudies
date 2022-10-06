@@ -8,6 +8,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { TesthashComponent } from './testhash/testhash.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { AppRoutingModule } from './app-routing.module';
     HeroDetailComponent,
     TesthashComponent,
     MessagesComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
