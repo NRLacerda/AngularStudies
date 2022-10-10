@@ -10,6 +10,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
     TesthashComponent,
     MessagesComponent,
     NotfoundComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
