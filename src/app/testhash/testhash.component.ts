@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as sha256 from 'fast-sha256';
 
 @Component({
   selector: 'app-testhash',
@@ -11,6 +10,7 @@ export class TesthashComponent implements OnInit {
 
   ngOnInit(): void {
    }
+}
   /*
   hash() {
     var crypto = require('crypto');
@@ -19,5 +19,5 @@ export class TesthashComponent implements OnInit {
     console.log(hash); // 9b74c9897bac770ffc029102a200c5de
   }
   */
-  }
+  
 
