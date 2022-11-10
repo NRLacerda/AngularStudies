@@ -1,21 +1,6 @@
-Projeto pessoal desenvolvido pela Google, Angular Tour of Heroes.
-
-Notas pessoais
-<br>
-<li>NgIf exclui ou aparece um bloco HTML dependendo da condição</li>
-<li>NgFor faz o exercicio for para todos itens dentro de um objeto</li>
-<li>Class binding é dinamicamente adicionar uma classe dependendo de uma função</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+#Tour of Heroes 
+<h2> Esse projeto visa testar funções e capacidades do Angular com intuito de teste e estudo </h2><br>
+Para executar o aplicativo, primeiro execute o "banco de dados" mockado, rodando o comando 
+>**npm run server**
+- Este comando é responsável por deixar um JSON como fake API.
+Após isso você pode executar o "ng serve" para executar a aplicação.
