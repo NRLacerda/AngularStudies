@@ -12,6 +12,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthModule } from '@auth0/auth0-angular';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,11 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    AuthModule.forRoot({
+      domain:'dev-1z5bav6h7rag3tfd',
+      clientId:'8Pj0qdG97aeRW8J47ZDLd3TyPHfhq4Gl'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
