@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthModule } from '@auth0/auth0-angular';
+import { AuthbutComponent } from './authbut/authbut.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AuthModule } from '@auth0/auth0-angular';
     NotfoundComponent,
     DashboardComponent,
     ListItemComponent,
+    AuthbutComponent,
   ],
   imports: [
     BrowserModule,
