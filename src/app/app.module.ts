@@ -34,7 +34,7 @@ import { AuthbutComponent } from './authbut/authbut.component';
     BrowserAnimationsModule,
     HttpClientModule,
     AuthModule.forRoot({
-      domain:'dev-1z5bav6h7rag3tfd',
+      domain:'dev-1z5bav6h7rag3tfd.us.auth0.com',
       clientId:'8Pj0qdG97aeRW8J47ZDLd3TyPHfhq4Gl'
     })
   ],
