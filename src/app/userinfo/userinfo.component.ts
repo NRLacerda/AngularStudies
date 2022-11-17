@@ -5,9 +5,14 @@ import { AuthService } from '@auth0/auth0-angular';
   selector: 'userinfo',
   template: `
     <ul *ngIf="auth.user$ | async as user">
-      <h3>Bem vindo novamente! {{ user.name }}</h3>
-    </ul>`
+      
+      <p class="user" >{{ user.name }}  </p>
+    </ul>`,
+  styleUrls: ['./userinfo.component.css']
 })
 export class UserInfoComponent {
   constructor(public auth: AuthService) {}
+
+
+  
 }

@@ -8,12 +8,12 @@ import { DOCUMENT } from '@angular/common';
   template: `
     <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
       <button mat-flat-button color="primary" (click)="auth.logout({ returnTo: document.location.origin })">
-        Log out
+        Sair
       </button>
     </ng-container>
 
     <ng-template #loggedOut>
-    <button mat-flat-button color="primary" (click)="auth.loginWithRedirect()">Login</button>
+    <button mat-flat-button color="primary" (click)="auth.loginWithRedirect()"> Entrar</button>
    </ng-template>
   `,
   styles: [],
