@@ -20,7 +20,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { NavComponent } from './nav/nav.component'; 
 import {MatIconModule} from '@angular/material/icon'; 
 import {MatButtonModule} from '@angular/material/button';
-import { MenuComponent } from './menu/menu.component'; 
+import { MenuComponent } from './menu/menu.component';
+import { TabelaComponent } from './tabela/tabela.component'; 
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MenuComponent } from './menu/menu.component';
     UserInfoComponent,
     NavComponent,
     MenuComponent,
+    TabelaComponent,
   ],
   imports: [
     BrowserModule,
