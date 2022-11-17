@@ -12,7 +12,4 @@ import { AuthService } from '@auth0/auth0-angular';
 })
 export class UserInfoComponent {
   constructor(public auth: AuthService) {}
-
-
-  
 }

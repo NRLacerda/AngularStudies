@@ -1,3 +1,6 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+.espacamento{
+  margin-left: 1.5em;
+}
