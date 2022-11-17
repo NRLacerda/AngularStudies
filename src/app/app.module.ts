@@ -46,8 +46,8 @@ import {MatButtonModule} from '@angular/material/button';
     ButtonModule,
     MatButtonModule,
     AuthModule.forRoot({
-      domain: 'dev-8q01sqoycnl7ie70.us.auth0.com',
-      clientId: 'sGMJ90l62i7YADDHHkfbiLhnO3n8go71',
+      domain: 'dev-1z5bav6h7rag3tfd.us.auth0.com',
+      clientId: '8Pj0qdG97aeRW8J47ZDLd3TyPHfhq4Gl',
     }),
   ],
   providers: [],

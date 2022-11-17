@@ -5,7 +5,7 @@ import { AuthService } from '@auth0/auth0-angular';
   selector: 'userinfo',
   template: `
     <ul *ngIf="auth.user$ | async as user">
-      <h2>Bem vindo novamente! {{ user.name }}</h2>
+      <h3>Bem vindo novamente! {{ user.name }}</h3>
     </ul>`
 })
 export class UserInfoComponent {
