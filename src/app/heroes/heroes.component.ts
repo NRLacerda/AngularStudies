@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from '../interface/hero';
 
 @Component({
-  selector: 'app-heroes',
+  selector: 'heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
 })

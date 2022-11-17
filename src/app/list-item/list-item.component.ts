@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Message } from '../interface/message';
 
 @Component({
-  selector: 'app-list-item',
+  selector: 'listitem',
   templateUrl: './list-item.component.html',
   styleUrls: ['./list-item.component.css']
 })

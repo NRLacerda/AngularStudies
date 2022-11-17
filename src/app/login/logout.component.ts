@@ -1,21 +1,20 @@
 import { AuthService } from '@auth0/auth0-angular';
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
 
 @Component({
-  selector: 'logoutbutt',
+  selector: 'login',
   template: `
     <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-      <button pButton (click)="auth.logout({ returnTo: document.location.origin })">
+      <button mat-flat-button color="primary" (click)="auth.logout({ returnTo: document.location.origin })">
         Log out
       </button>
     </ng-container>
 
     <ng-template #loggedOut>
-      
-    <button (click)="auth.loginWithRedirect()">Login</button>
-  </ng-template>
+    <button mat-flat-button color="primary" (click)="auth.loginWithRedirect()">Login</button>
+   </ng-template>
   `,
   styles: [],
 })

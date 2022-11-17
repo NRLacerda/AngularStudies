@@ -13,8 +13,13 @@ import { ListItemComponent } from './list-item/list-item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthModule } from '@auth0/auth0-angular';
 import { AuthbutComponent } from './authbut/authbut.component';
-import { LogoutComponent } from './logout/logout.component';
+import { LogoutComponent } from './login/logout.component';
 import { ButtonModule } from 'primeng/button';
+import { UserInfoComponent } from './userinfo/userinfo.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { NavComponent } from './nav/nav.component'; 
+import {MatIconModule} from '@angular/material/icon'; 
+import {MatButtonModule} from '@angular/material/button'; 
 
 @NgModule({
   declarations: [
@@ -27,6 +32,8 @@ import { ButtonModule } from 'primeng/button';
     ListItemComponent,
     AuthbutComponent,
     LogoutComponent,
+    UserInfoComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,10 +41,13 @@ import { ButtonModule } from 'primeng/button';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatToolbarModule,
+    MatIconModule,
     ButtonModule,
+    MatButtonModule,
     AuthModule.forRoot({
-      domain: 'dev-1z5bav6h7rag3tfd.us.auth0.com',
-      clientId: '8Pj0qdG97aeRW8J47ZDLd3TyPHfhq4Gl',
+      domain: 'dev-8q01sqoycnl7ie70.us.auth0.com',
+      clientId: 'sGMJ90l62i7YADDHHkfbiLhnO3n8go71',
     }),
   ],
   providers: [],
