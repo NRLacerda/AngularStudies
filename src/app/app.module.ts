@@ -19,7 +19,8 @@ import { UserInfoComponent } from './userinfo/userinfo.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NavComponent } from './nav/nav.component'; 
 import {MatIconModule} from '@angular/material/icon'; 
-import {MatButtonModule} from '@angular/material/button'; 
+import {MatButtonModule} from '@angular/material/button';
+import { MenuComponent } from './menu/menu.component'; 
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {MatButtonModule} from '@angular/material/button';
     LogoutComponent,
     UserInfoComponent,
     NavComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

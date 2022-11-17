@@ -1,3 +1,4 @@
+import { ListItemComponent } from './list-item/list-item.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'detail/:id', component: HeroDetailComponent },
+  { path: 'todo', component:ListItemComponent}
     // path de not found { path: '**', pathMatch: 'full', component: NotfoundComponent },
 ];
 
