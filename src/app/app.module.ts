@@ -11,7 +11,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AuthModule } from '@auth0/auth0-angular';
+import { AuthModule, AuthService } from '@auth0/auth0-angular';
 import { AuthbutComponent } from './authbut/authbut.component';
 import { LogoutComponent } from './login/logout.component';
 import { ButtonModule } from 'primeng/button';
@@ -54,7 +54,7 @@ import { TabelaComponent } from './tabela/tabela.component';
       clientId: '8Pj0qdG97aeRW8J47ZDLd3TyPHfhq4Gl',
     }),
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

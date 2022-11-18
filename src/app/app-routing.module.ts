@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'todo', component:ListItemComponent},
-  {path: 'vendas', component:TabelaComponent}
+  { path: 'vendas', component:TabelaComponent}
     // path de not found { path: '**', pathMatch: 'full', component: NotfoundComponent },
 ];
 
