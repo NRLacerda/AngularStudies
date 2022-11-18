@@ -1,5 +1,5 @@
-<div *ngFor="let message of messages">
-    <h1>{{message.solicitante}}</h1>
-    <h1> {{message.mensagem}}</h1>
-    <h1>{{message.nivel}}</h1>
+<div *ngFor="let message of messages" >
+    <h1>{{message.solicitante | uppercase }}</h1>
+    <h1> {{message.mensagem | uppercase  }}</h1>
+    <h1>{{message.nivel | uppercase }}</h1>
 </div>
