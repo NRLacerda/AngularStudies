@@ -1,6 +1,22 @@
+
 <div class="central">
+  <div *ngIf="auth.isAuthenticated$ | async; else loggedOut2">
   <button mat-raised-button color="primary" routerLink="/todo">ToDo</button>
+</div>
+<div>
   <button mat-raised-button color="primary" routerLink="/dashboard">Dashboard</button>
+</div>
+<div>
   <button mat-raised-button color="primary" routerLink="/heroes">Heroes</button>
+</div>
+<div *ngIf="auth.isAuthenticated$ | async; else loggedOut">
   <button mat-raised-button color="primary" routerLink="/vendas">Vendas</button>
+</div>
+
+<ng-template #loggedOut>
+  <button mat-raised-button color="primary" (click)="auth.loginWithRedirect()"> Vendas</button>
+ </ng-template>
+ <ng-template #loggedOut2>
+  <button mat-raised-button color="primary" (click)="auth.loginWithRedirect()"> Todo</button>
+ </ng-template>
 </div>
