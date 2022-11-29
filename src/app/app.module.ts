@@ -21,7 +21,8 @@ import { NavComponent } from './nav/nav.component';
 import {MatIconModule} from '@angular/material/icon'; 
 import {MatButtonModule} from '@angular/material/button';
 import { MenuComponent } from './menu/menu.component';
-import { TabelaComponent } from './tabela/tabela.component'; 
+import { TabelaComponent } from './vendas/tabela/tabela.component';
+import { VendasComponent } from './vendas/vendas.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { TabelaComponent } from './tabela/tabela.component';
     NavComponent,
     MenuComponent,
     TabelaComponent,
+    VendasComponent
   ],
   imports: [
     BrowserModule,
