@@ -5,3 +5,4 @@ Para executar o aplicativo, primeiro execute o "banco de dados" mockado, rodando
 "js npm run server" 
 - Este comando é responsável por deixar um JSON como fake API.
 Após isso você pode executar o "ng serve" para executar a aplicação.
+T
