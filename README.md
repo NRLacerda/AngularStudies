@@ -7,3 +7,4 @@ Para executar o aplicativo, primeiro execute o "banco de dados" mockado, rodando
 Após isso você pode executar o "ng serve" para executar a aplicação.
 TTT
 Tt
+t
